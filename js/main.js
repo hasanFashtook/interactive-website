@@ -160,7 +160,7 @@ function changeBackground() {
 
 if (localStorage.getItem("background") === "no") {
   if (localStorage.getItem("indexImage")) {
-    landingImage.style.backgroundImage = `url(/imgs/0${localStorage.getItem("indexImage")}.jpg)`;
+    landingImage.style.backgroundImage = `url(./imgs/0${localStorage.getItem("indexImage")}.jpg)`;
   }
 }
 // change the background frequently
