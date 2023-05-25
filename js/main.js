@@ -154,7 +154,7 @@ let randomNum;
 
 function changeBackground() {
   randomNum = Math.floor(Math.random() * arrImage.length + 1);
-  landingImage.style.backgroundImage = `url(/imgs/0${randomNum}.jpg)`;
+  landingImage.style.backgroundImage = `url(../imgs/0${randomNum}.jpg)`;
   localStorage.setItem("indexImage", randomNum);
 }
 
