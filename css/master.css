@@ -206,7 +206,7 @@ img {
 .landing-page {
   height: 100vh;
   overflow: hidden;
-  background-image: url("../imgs/06.png");
+  /* background-image: url("../images/06.png"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -959,7 +959,7 @@ img {
 /* end testimonials section */
 /* start contact section */
 .contact-section {
-  background-image: url("../imgs/contact.png");
+  background-image: url("../images/contact.png");
   background-position: center;
   background-size: cover;
 }

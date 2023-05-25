@@ -154,16 +154,16 @@ let randomNum;
 
 function changeBackground() {
   randomNum = Math.floor(Math.random() * arrImage.length + 1);
-  landingImage.style.backgroundImage = `url("../imgs/0${randomNum}.jpg")`;
+  landingImage.style.backgroundImage = `url("../images/0${randomNum}.jpg")`;
   localStorage.setItem("indexImage", randomNum);
 }
 
 if (localStorage.getItem("background") === "no") {
   if (localStorage.getItem("indexImage")) {
-    landingImage.style.backgroundImage = `url("../imgs/0${localStorage.getItem("indexImage")}.jpg")`;
+    landingImage.style.backgroundImage = `url("../images/0${localStorage.getItem("indexImage")}.jpg")`;
   }
 }else{
-  landingImage.style.backgroundImage = `url("../imgs/01.jpg")`;
+  landingImage.style.backgroundImage = `url("../images/01.jpg")`;
 }
 // change the background frequently
 let timerID = setInterval(changeBackground, 4000);
